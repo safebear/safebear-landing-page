@@ -19,7 +19,7 @@ export class EmailForm extends Component {
   render() {
     const { message } = this.state;
     return (
-      <form id="signup-form" onSubmit={this.onSubmit} method="post" action="#">
+      <form id="signup-form" onSubmit={this.onSubmit} method="post" action="https://getform.io/f/e1b33fa2-6c6d-4cc5-8916-3d2a7ab3d8a0">
         <input
           type="email"
           name="email"
